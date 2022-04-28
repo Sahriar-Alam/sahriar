@@ -803,11 +803,11 @@ input {
 }
 
 .search-section {
-	height: 50%;
+	height: 100%;
 	width: 100%;
 	background: #ffffff;
 	position: fixed;
-	top: -60%;
+	top: -120%;
 	z-index: 99999999999999;
 	display: -webkit-box;
 	display: -ms-flexbox;
