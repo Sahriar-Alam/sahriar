@@ -296,7 +296,7 @@ a {
 }
 
 .animation-item {
-	z-index: 9999;
+  z-index: 0;
 }
 
 .visible {
