@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+button,
+fieldset,
+img {
+    border: 0
+}
+
+
+html {
+    font-size: 16px
+}
+
+blockquote,
+body,
+button,
+code,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+select,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+dl,
+li,
+menu,
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+button,
+input,
+select,
+textarea {
+    vertical-align: middle
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer
+}
+
+body {
+    background: #fff
+}
+
+body,
+button,
+input,
+select,
+td,
+textarea,
+th {
+    line-height: 1.5;
+    font-family: '돋움', dotum, sans-serif;
+    color: #333
+}
+
+a {
+    color: #333;
+    text-decoration: none
+}
+
+a:active,
+a:hover {
+    text-decoration: underline
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+    font-style: normal;
+    font-weight: 400
+}

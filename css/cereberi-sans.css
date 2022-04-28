@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Cerebri Sans";
+    src: url(../fonts/cerebri-sans/cerebrisans-light.eot);
+    src: url(../fonts/cerebri-sans/cerebrisans-light.ttf);
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Cerebri Sans";
+    src: url(../fonts/cerebri-sans/cerebrisans-regular.eot);
+    src: url(../fonts/cerebri-sans/cerebrisans-regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Cerebri Sans";
+    src: url(../fonts/cerebri-sans/cerebrisans-medium.eot);
+    src: url(../fonts/cerebri-sans/cerebrisans-medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Cerebri Sans";
+    src: url(../fonts/cerebri-sans/cerebrisans-semibold.eot);
+    src: url(../fonts/cerebri-sans/cerebrisans-semibold.ttf);
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Cerebri Sans";
+    src: url(../fonts/cerebri-sans/cerebrisans-bold.eot);
+    src: url(../fonts/cerebri-sans/cerebrisans-bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+  }

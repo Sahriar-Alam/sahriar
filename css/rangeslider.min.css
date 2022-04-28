@@ -1,0 +1,72 @@
+div.rangeslider {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative
+}
+
+div.rangeslider * {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+div.rangeslider div {
+    position: absolute
+}
+
+div.rangeslider .rangeouter {
+    background: #ddd;
+    width: 100%
+}
+
+div.rangeslider .rangeinner {
+    background: #04b404
+}
+
+div.rangeslider .rangeselector {
+    background: #04b404;
+    background-clip: padding-box;
+    border: .4em solid transparent
+}
+
+div.rangeslider.disabled .rangeinner,
+div.rangeslider.disabled .rangeselector {
+    background-color: #777 !important
+}
+
+div.rangeslider .rangeinner,
+div.rangeslider .rangeouter,
+div.rangeslider .rangeselector {
+    -webkit-transition: background-color .2s linear;
+    transition: background-color .2s linear
+}
+
+.rangeselector {
+    background-color: #3AC4E5 !important;
+    width: 19.81px !important;
+    height: 19.81px !important;
+    border: 5px solid #ffffff !important;
+    -webkit-box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+
+.rangeinner {
+    height: 8px !important;
+    background: #3AC4E5 !important;
+    border-radius: 50px;
+}
+
+.price-area .rangeinner,
+.price-area .rangeouter {
+    height: 10px !important;
+}
+
+.rangeouter {
+    background: #f1f2f4 !important;
+    height: 8px !important;
+    border-radius: 50px;
+}
+
+#slider_1 {
+    width: 100% !important;
+}
